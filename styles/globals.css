@@ -1,0 +1,293 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+span {
+  color: rgb(127 29 29);
+}
+
+.p-info {
+  color: rgb(127 29 29);
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 35px;
+}
+
+.logo {
+  max-width: 350px;
+  height: 150px;
+  margin-top: 40px;
+}
+
+.cabezera-cliente {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+  margin-top: -70px;
+}
+
+.cabezera-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 30px;
+  padding-top: 70px;
+}
+
+.cabezera-info span {
+  color: rgb(127 29 29);
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 94%;
+  margin-top: 20px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 60px;
+  color: rgb(127 29 29);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.form-btn {
+  background-color: rgb(127 29 29);
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.error-container {
+  text-align: center;
+}
+
+.error-container > h1{
+  color: rgb(127 29 29);
+}
+
+.error-logo {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .footer {
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    margin-left: 10px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40%;
+  }
+
+  .cabezera-cliente {
+    display: flex;
+  }
+
+  .cabezera-cliente > * {
+    order: 0;
+    margin: 0px 2px;
+  }
+
+  .uno {
+    order: 2;
+  }
+
+  .dos {
+    order: 1;
+    margin-top: 30px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 745px) and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+  }
+  .footer {
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    margin-left: 10px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 200px;
+  }
+
+  .cabezera-cliente {
+    display: flex;
+  }
+
+  .p-info {
+    margin-left: 9px;
+  }
+
+  .cabezera-cliente > * {
+    order: 0;
+    margin: 0px 2px;
+  }
+
+  .uno {
+    order: 2;
+  }
+
+  .dos {
+    order: 1;
+    margin-top: 30px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 934px) {
+  /* Estilos para pantallas de escritorio */
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+  }
+  .footer {
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    margin-left: -30px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40%;
+  }
+
+  .cabezera-cliente {
+    display: flex;
+  }
+
+  .p-info {
+    margin-left: -115px;
+  }
+
+  .cabezera-cliente > * {
+    order: 0;
+    margin: 0px 2px;
+  }
+
+  .uno {
+    order: 2;
+  }
+
+  .dos {
+    order: 1;
+    margin-top: 30px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* Estilos para pantallas de escritorio */
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .footer {
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    margin-left: -108px;
+    margin-bottom: -60px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 40%;
+  }
+
+  .cabezera-cliente {
+    display: flex;
+  }
+
+  .p-info {
+    margin-left: 60px;
+  }
+
+  .cabezera-cliente > * {
+    order: 0;
+    margin: 0px 2px;
+  }
+
+  .uno {
+    order: 1;
+  }
+
+  .dos {
+    order: 2;
+    margin-top: 30px;
+    width: 300px;
+  }
+}
+
+
