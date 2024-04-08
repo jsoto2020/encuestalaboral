@@ -79,7 +79,7 @@ export const getStaticPaths = async (ctx) => {
 	};
 
 	const { data } = await axios.post(
-		"http://ws.marmotedch.com.do/gas/ws/r/restserver",
+		"http://ws.marmotech.com.do/gas/ws/r/restserver",
 		`{"oper":"cedula","data":"{\\"usuario\\":\\"conecta\\",\\"clave\\":\\"conecta\\",\\"num_emp\\":\\"3355\\"}"}`,
 		{ headers }
 	);

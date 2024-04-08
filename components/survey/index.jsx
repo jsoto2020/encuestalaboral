@@ -28,8 +28,9 @@ const SurveyComponent = ({ num_oc, cliente, navegador, surveyId }) => {
         };
 
         const { data } = await axios.post(
-      //      "https://ws.marmotech.com.do/gas/ws/r/restserver",
-            "http://192.168.40.9/gas/ws/r/restserver",
+      
+     //       "http://192.168.40.9/gas/ws/r/restserver",
+           "https://ws.marmotech.com.do/gas/ws/r/restserver",
             `{"oper":"respuesta_laboral","data":"{\\"usuario\\":\\"conecta\\",\\"clave\\":\\"conecta\\",\\"num_emp\\":\\"${num_oc}\\",\\"nombre\\":\\"${cliente}\\",\\"respuesta\\":\\"${result}\\",\\"dispositivo\\":\\"${navegador}\\",\\"comentario\\":\\"${result2}\\"}"}`,
             { headers }
         );
