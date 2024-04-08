@@ -84,8 +84,9 @@ export const getStaticPaths = async (ctx) => {
 		{ headers }
 	);
 
-	const {num_emp} = data;
-	const num_oc = encriptarParametro(num_emp);
+	
+	const cliente = data.empleado.toString();
+	const num_oc = encriptarParametro(cliente);
 
 	console.log(`path ${num_oc}`);
 //	console.log(`path ${cliente}`);
