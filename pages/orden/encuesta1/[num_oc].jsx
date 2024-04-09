@@ -17,8 +17,8 @@ export const ordenPage = ({ num_oc_decrypted, cotizacion_no, cliente }) => {
 				<div className="cabezera-info uno">
 					<p className="p-info">
 						Estimado(a) Colaborador: <br /> <br />
-						Por favor responda a la siguiente encuesta corta sobre
-						su experiencia laborando en MARMOTECH, S.A.
+						Te presentamos una pregunta para medir el nive de satisfaccion que tienes con nuestra empresa.
+						En una escala del 1 al 10 donde uno(1) es totalmente en desacuerdo y 10 es totalmente de acuerdo, favor contestar la pregunta que se presenta a continuacion.
 						<br />
 						<br />
 						Esta encuesta solo le tomará un minuto y en ella no se

@@ -9,8 +9,8 @@ export const questions = {
           type: "rating",
           name: "satisfaction-numeric",
           title:
-            "¿CUAL SERIA LA PROBABILIDAD DE QUE RECOMENDARAS MARMOTECH A UN AMIGO O FAMILIAR?",
-          rateMin: 0,
+            "¿CUAN PROBABLE ES QUE USTED RECOMIENDE A MARMOTECH, A UN PARIENTE O AMIGO, COMO UN BUEN LUGAR PARA LABORAR?",
+          rateMin: 1,
           rateMax: 10,
           minRateDescription: "NADA PROBABLE",
           maxRateDescription: "MUY PROBABLE",
