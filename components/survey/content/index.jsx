@@ -1,6 +1,6 @@
 export const questions = {
   showQuestionNumbers: "off",
-  title: "Marmotech Encuestas",
+  title: "",
   pages: [
     {
       name: "page1",
