@@ -17,15 +17,15 @@ export const ordenPage = ({ num_oc_decrypted, cotizacion_no, cliente }) => {
 				<div className="cabezera-info uno">
 					<p className="p-info">
 						Estimado(a) Colaborador: <br /> <br />
-						Te presentamos una pregunta para medir el nive de satisfaccion que tienes con nuestra empresa.
-						En una escala del 1 al 10 donde uno(1) es totalmente en desacuerdo y 10 es totalmente de acuerdo, favor contestar la pregunta que se presenta a continuacion.
+						Te presentamos una pregunta para medir el nivel de satisfacción que tienes con nuestra empresa.
+						En una escala del 1 al 10 donde uno (1) es totalmente en desacuerdo y diez (10) es totalmente de acuerdo, favor contestar la pregunta que se presenta a continuación:
 						<br />
 						<br />
 						Esta encuesta solo le tomará un minuto y en ella no se
 						solicita información personal.
 					</p>
 				</div>
-				<Image className="logo dos" src={logo} alt="logo" />
+				
 			</div>
 			<div className="footer"></div>
 			<Survey

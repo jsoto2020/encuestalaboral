@@ -18,7 +18,7 @@ export const questions = {
         {
           name: "comment",
           type: "text",
-          title: "RAZON DE LA PUNTUACIÓN",
+          title: "¿Por qué usted entiende que merecemos esa puntuación?:",
           inputType: "comment",
           placeholder: "Escriba su comentario",
           isRequired: false,
