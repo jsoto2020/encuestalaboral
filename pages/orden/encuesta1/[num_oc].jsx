@@ -18,7 +18,7 @@ export const ordenPage = ({ num_oc_decrypted, cotizacion_no, cliente }) => {
 					<p className="p-info">
 						Estimado(a) Colaborador(a): <br /> <br />
 						Te presentamos una pregunta para medir el nivel de satisfacción que tienes con nuestra empresa.
-						En una escala del 1 al 10 donde uno (1) es nada probable y diez (10) es muy probable, favor responder a continuación:
+						En una escala del 1 al 10, donde uno (1) es nada probable y diez (10) es muy probable, favor responder a continuación:
 						<br />
 						<br />
 					</p>
